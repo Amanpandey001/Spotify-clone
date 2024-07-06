@@ -1,0 +1,34 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards .card{
+    display: flex;
+    gap: 5px;
+    margin: 4px 10px 0 15px;
+}
+.cards .card .text-card .ant h3:first-child,.cards .card .text-card .ant div, .cards .card .text-card .ant h3:last-child{
+    color: gray;
+    font-weight: 500;
+}
+.cards .card .text-card .ant{
+    display: flex;
+    gap: 5px;
+}
+.text-card{
+    line-height: 1.5;
+    margin-left: 5px;
+}
+.cards .card img{
+    width: 50px;
+    border-radius: 5px;
+}
+.cards{
+    position: fixed;
+    overflow: auto;
+    height: 40%;
+    width: 29.2%;
+    scrollbar-width: thin;
+    scrollbar-color: gray transparent;  
+}

@@ -1,0 +1,180 @@
+:root {
+    --bbgc: black;
+    --bgc: rgb(22, 22, 22);
+    --bg: rgb(29, 29, 29);
+    --bbgc2: blue;
+    --bgc2: rgb(43, 43, 255);
+    --bg2: rgb(68, 68, 250);
+    --smb: rgb(46, 46, 46);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--bbgc);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    height: 85vh;
+    margin: 10px;
+    column-gap: 10px;
+}
+
+.sidebar .top,
+.sidebar .bottom {
+    background-color: var(--bgc);
+    border-radius: 10px;
+}
+
+.sidebar .top {
+    height: 24%;
+}
+
+.sidebar .bottom {
+    height: 80%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main {
+    background: linear-gradient(180deg, rgb(51, 51, 51), var(--bg), var(--bg), var(--bg));
+    border-radius: 10px;
+    /* overflow: auto; */
+    position: relative;
+}
+
+nav {
+    height: 23%;
+    background-color: transparent;
+    border: 1px white solid;
+    
+}
+
+.content {
+    height: 63.5%;
+    background-color: transparent;
+    margin: 10px 0;
+    position: fixed;
+    width: 68.5%;
+    overflow: auto;
+    padding: 10px;
+    scrollbar-color: rgb(99, 98, 98) transparent;
+}
+
+.box {
+    height: 13%;
+    background-color: transparent;
+}
+
+.sidebar img {
+    width: 25px;
+    background-color: transparent;
+}
+
+.home,
+.search {
+    height: 40%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar .text {
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: gray;
+    transition: ease 0.4s;
+}
+
+.sidebar .text:hover {
+    color: white;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 10px 10px 10px;
+    align-items: center;
+    font-size: small;
+}
+.mid>img{
+    cursor: pointer;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.recent{
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: gray;
+}
+.recent img{
+    width: 20px;
+}
+.bottom .top{
+    margin-left: 20px;
+    height: 15%;
+}
+.btn{
+    margin: 20px 10px 5px 10px;
+    /* border: 1px solid wheat; */
+}
+.btn .button{
+    cursor: pointer;
+    /* border: 1px solid white; */
+    padding: 8px 10px 8px 10px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.164);
+    transition: ease 0.4s;
+}
+.btn .button:hover{
+    background-color: rgba(128, 128, 128, 0.274);
+}
+.bottom .top .left{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.bottom .top .left h3{
+    color: gray;
+    transition: ease 0.4s;
+}
+.bottom .top .left h3:hover{
+    color: white;
+}
+.bottom1{
+    position: relative;
+}
+.bottom .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom .top .right img{
+    cursor: pointer;
+    width: 18px;
+    margin-left: 10px;
+}
+.bottom .top .right{
+    margin-top: 13px;
+    margin-right: 16px;
+}
