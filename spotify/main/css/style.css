@@ -179,3 +179,15 @@ nav {
     margin-top: 13px;
     margin-right: 16px;
 }
+.soundbar{
+    width: 38vw;
+    height: 100%;
+    margin-left: 430px ;
+    margin-right: 100px;
+    border: 1px solid white;
+}
+.volume{
+    border: 1px solid yellow;
+    width: 20vw;
+    margin-right: 20px;
+}
