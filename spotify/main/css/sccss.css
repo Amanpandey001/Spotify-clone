@@ -27,7 +27,7 @@
 .cards{
     position: fixed;
     overflow: auto;
-    height: 40%;
+    height: 38%;
     width: 29.2%;
     scrollbar-width: thin;
     scrollbar-color: gray transparent;  
@@ -82,4 +82,118 @@
 .pp1 h2{
     margin-bottom: 5px;
     margin-top: 8px;
+}
+
+
+.main nav .topmain, .main nav .bottomain{
+    display: flex;
+    /* border: 1px solid white; */
+    background-color: transparent;
+}
+.topmain{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topmain .right ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid yellow; */
+    background-color: transparent;
+    gap: 16px;
+}
+.main nav li{
+    background-color: transparent;
+}
+.topmain .left{
+    margin: 15px;
+}
+#leftarr, #rightarr{
+    background-color: transparent;
+}
+.main nav .left{
+    background-color: transparent;
+}
+.topmain .right ul li:first-child{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 7px 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.topmain .right ul li:nth-child(2){
+    background-color: black;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.topmain .right ul li:nth-child(3){
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.topmain .right ul li:nth-child(4){
+    background-color: black;
+    color: black;
+    border-radius: 100%;
+    font-weight: 600;  
+    padding: 1px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topmain .right ul li:nth-child(4) p{
+    display: flex;
+    background-color: rgb(238, 63, 209);
+    color: black;
+    height: 90%;
+    width: 90%;
+    padding: 10px 12px; 
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.bottomain ul{
+    display: flex;
+    list-style: none;
+    background-color: transparent;
+    gap: 10px;
+    margin: 15px 20px;
+}
+.bottomain ul li{
+    background-color: rgba(88, 88, 88, 0.411);
+    color: rgb(243, 243, 243);
+    padding: 8px 13px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.context span{
+    background-color: transparent;
+}
+.context span:first-child{
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.context span:last-child{
+    margin-right: 20px;
+    color: rgb(134, 134, 134);
+    font-weight: 600;
+}
+footer{
+    border: 1px solid white;
+    height: 13.2vh;
 }
