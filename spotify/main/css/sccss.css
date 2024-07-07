@@ -32,3 +32,54 @@
     scrollbar-width: thin;
     scrollbar-color: gray transparent;  
 }
+.pp1{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    background-color: var(--smb);
+}
+.pp1 .playname{
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: ease 0.5s;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+}
+.pp1 .playname:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.pp1 .playname::placeholder{
+    color: rgb(158, 156, 156);
+}
+.cr{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    width: 70px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.164);
+    border: none;
+    color: white;
+    transition: ease 0.4s;
+}
+.submit:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.submit:active{
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.pp1 h2{
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
