@@ -194,6 +194,82 @@
     font-weight: 600;
 }
 footer{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 13.2vh;
+    display: flex;
+}
+li{
+    cursor: pointer;
+}
+.cards02{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    width: 95% ;
+    background-color: transparent;
+    /* border: white 1px solid; */
+    /* margin-top: 20px; */
+    gap: 10px;
+    /* margin-left: 10px; */
+    margin: 20px auto auto 10px;
+}
+.card02{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+.card02 p{
+    background-color: transparent;
+    font-size: 15px;
+}
+.card02 p:last-child{
+    color: gray;
+    line-height: 1.5;
+}
+.card02 img{
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.cartext{
+    max-height: 80px;
+    width: 153.5px; 
+
+}
+.cartext p:last-child{
+    white-space: wrap;
+    max-height: 70px;
+    width: 153.5px; 
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+.cartext p:first-child{
+    white-space: nowrap;
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+#playbtn{
+    position: absolute;
+    top: 103px;
+    right: 20px;
+    display: flex;
+    border-radius: 100px;
+    border: none;
+    padding: 11px 10px 7px 13px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 241, 22);
+    transition: none;
+    visibility: hidden;
+}
+.card02:hover #playbtn{
+    visibility: visible;
+}
+#playbtn:hover{
+    transform: scale(1.1);
+}
+#playbtn:active{
+    transform: scale(1);
+    background-color:rgb(76, 204, 25) ;
 }
