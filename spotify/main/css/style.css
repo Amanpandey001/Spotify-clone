@@ -21,7 +21,7 @@ header {
     display: grid;
     grid-template-columns: 0.6fr 1.4fr;
     height: 85vh;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
     column-gap: 10px;
 }
 
@@ -55,8 +55,9 @@ header {
 nav {
     height: 23%;
     background-color: transparent;
-    border: 1px white solid;
-    
+    /* border: 1px white solid; */
+    width: 97%;
+    margin: auto;
 }
 
 .content {
