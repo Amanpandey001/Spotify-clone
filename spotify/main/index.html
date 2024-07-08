@@ -108,8 +108,30 @@
         </section>
     </header>
     <footer>
+        <div class="audio" hidden></div>
         <div class="soundbar">
-            <div class="audio" hidden></div>
+            <div class="soundbuttons">
+                <button id="shuffle">
+                    <img  src="" alt="">
+                </button>
+                <button id="backward">
+                    <img src="" alt="">
+                </button>
+                <button id="play">
+                    <img src="../assets/playbtn.svg" alt="" style="background-color: transparent;">
+                </button>
+                <button id="forward">
+                    <img src="" alt="">
+                </button>
+                <button id="repeat">
+                    <img src="" alt="">
+                </button>
+            </div>
+            <div class="progbar">
+                <h3>-:--</h3>
+                <input type="range" disabled min="0" max="100" value="0" id="range">
+                <h3>-:--</h3>
+            </div>
         </div>
         <div class="volume"></div>
     </footer>
